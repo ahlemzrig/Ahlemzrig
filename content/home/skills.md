@@ -24,10 +24,10 @@ feature:
   icon: chart-line
   icon_pack: fas
   name: STATA
-- description: 'More than 16 years using EXCEL.'
-  icon: chart-line
-  icon_pack: fas
-  name: Excel
+- description: 'Member since 2013.'
+  icon: publons
+  icon_pack: ai
+  name: publons
 
 
 # Uncomment to use emoji icons.
