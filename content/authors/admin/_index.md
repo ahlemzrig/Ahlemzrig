@@ -40,7 +40,7 @@ superuser: true
 title: Foued Hamouda
 ---
 
-Foued Hamouda is a professor of Finance at the University of Gabès. His research interests include Financial markets and Corporate finance. He leads the Observatory of South East Tunisians' firms.
+Foued Hamouda is a professor of Finance at the University of Gabès. His research interests include Financial markets and Corporate finance. He is the Co-founders of the Observatory of South East Tunisians' companies and member of Technology Transfer Office at the University of Gabès.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV english.pdf" "newtab" >}}resumé{{< /staticref >}}.
