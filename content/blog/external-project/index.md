@@ -7,5 +7,5 @@ image:
 summary: This is a Blog for my students at the University of Gabès
 tags:
 - Demo
-title: ISG
+title: ISG Forum Q/R
 ---

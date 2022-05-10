@@ -1,0 +1,43 @@
+---
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+image:
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
+links:
+- icon: github
+  icon_pack: fab
+  name: Material for my students Tunisianfirm package
+  url: https://github.com/Foha2001/tunisianfirms
+#slides: example
+summary: Package presentation.
+tags:
+- Deep Learning
+title: Tunisianfirms package
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+
+
+<p>The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms</p>
+<p>Installation
+Coming soon You can install the released version of tunisianfirms from CRAN with:</p>
+<p>install.packages(“tunisianfirms”)
+or</p>
+<pre class="r"><code>#install.packages(&quot;tunisianfirms&quot;)
+library(devtools)</code></pre>
+<pre><code>## Le chargement a nécessité le package : usethis</code></pre>
+<pre class="r"><code>devtools::install_github(&quot;Foha2001/tunisianfirms&quot;)</code></pre>
+<pre><code>## WARNING: Rtools is required to build R packages, but is not currently installed.
+## 
+## Please download and install Rtools 4.0 from https://cran.r-project.org/bin/windows/Rtools/.</code></pre>
+<pre><code>## Skipping install of &#39;tunisianfirms&#39; from a github remote, the SHA1 (397c5975) has not changed since last install.
+##   Use `force = TRUE` to force installation</code></pre>
+<pre class="r"><code>#you have to install devtools before, when installing from github
+library(tunisianfirms)
+## basic example code
+cotation(&quot;ATTIJARIBANK&quot;)</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
