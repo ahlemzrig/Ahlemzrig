@@ -4,7 +4,7 @@ bio:
 education:
   courses:
   - course: PhD in Finance
-    institution: Higer Institute of Management of Tunis
+    institution: Higher Institute of Management of Tunis
     year: 2010
   
 email: ""
