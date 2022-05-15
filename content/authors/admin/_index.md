@@ -12,9 +12,8 @@ highlight_name: false
 interests:
 - Corporate finance
 - Financial Markets
-- Payout policy
 - Data Science
-- Programing languages
+- Programming languages
 - Risk Management
 organizations:
 - name: Higher Institute of Management of Gabès
@@ -40,7 +39,7 @@ superuser: true
 title: Foued Hamouda
 ---
 
-Foued Hamouda is an associate professor of Finance at the University of Gabès. His research interests include Financial markets and Corporate finance. He is the Co-founders of the Observatory of South-East Tunisians' companies and member of Technology Transfer Office at the University of Gabès.
+Foued Hamouda is an associate professor of Finance at the University of Gabès. His research interests include Financial markets and Corporate finance. He is the Co-founders of the Observatory of South-East Tunisians' companies and a member of the Technology Transfer Office at the University of Gabès.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV english.pdf" "newtab" >}}resumé{{< /staticref >}}.

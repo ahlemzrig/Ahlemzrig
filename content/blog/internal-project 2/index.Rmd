@@ -1,0 +1,30 @@
+---
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+image:
+ # caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
+links:
+- icon: github
+  icon_pack: fab
+  name: 
+  url: 
+#slides: example
+summary: Package presentation.
+tags:
+- Deep Learning
+title: Risk Management in R 
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+Here, I will share materials for my students of risk management course. some some R codes have to be completed by my students in class.
+
+
+
+
+
+
+
+

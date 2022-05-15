@@ -22,22 +22,30 @@ url_video: ""
 
 
 
-<p>The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms</p>
-<p>Installation
-Coming soon You can install the released version of tunisianfirms from CRAN with:</p>
-<p>install.packages(“tunisianfirms”)
-or</p>
-<pre class="r"><code>#install.packages(&quot;tunisianfirms&quot;)
+<pre class="r"><code>#The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms
+
+#Installation
+#Coming soon You can install the released version of tunisianfirms from CRAN with:
+
+#install.packages(&quot;tunisianfirms&quot;)
+#or
+
+#install.packages(&quot;tunisianfirms&quot;)
 library(devtools)</code></pre>
 <pre><code>## Le chargement a nécessité le package : usethis</code></pre>
-<pre class="r"><code>devtools::install_github(&quot;Foha2001/tunisianfirms&quot;)</code></pre>
-<pre><code>## WARNING: Rtools is required to build R packages, but is not currently installed.
-## 
-## Please download and install Rtools 4.0 from https://cran.r-project.org/bin/windows/Rtools/.</code></pre>
-<pre><code>## Skipping install of &#39;tunisianfirms&#39; from a github remote, the SHA1 (397c5975) has not changed since last install.
-##   Use `force = TRUE` to force installation</code></pre>
-<pre class="r"><code>#you have to install devtools before, when installing from github
+<pre class="r"><code>#devtools::install_github(&quot;Foha2001/tunisianfirms&quot;)
+#you have to install devtools before, when installing from github
 library(tunisianfirms)
 ## basic example code
 cotation(&quot;ATTIJARIBANK&quot;)</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+<!-- Example -->
+<!-- This is a basic example which shows you how to solve a common problem: --></p>
+<pre class="r"><code>head(sample_data)</code></pre>
+<pre><code>##         date          lib prix
+## 1 2019-01-02 GIFDA5/42931 0.01
+## 2 2019-01-02 SOMCDA3/3725 0.01
+## 3 2019-01-02  TLSDS3/2021 0.01
+## 4 2019-01-03 GIFDA4/23727 0.01
+## 5 2019-01-03 GIFDA5/42931 0.01
+## 6 2019-01-03  SAHDA1/1425 0.01</code></pre>
