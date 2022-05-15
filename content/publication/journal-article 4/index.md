@@ -4,8 +4,10 @@ author_notes:
 - Equal contribution
 - Equal contribution
 authors:
+- Ahlem Zrig
+- Ahmed M.Saleh
+- Mohamed S.Sheteiwy
 - admin
-#- Robert Ford
 #date: "2022-07-01T00:00:00Z"
 doi: ""
 featured: false
@@ -18,7 +20,7 @@ publication: '*Scientia Horticulturae, 301*(1)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2022-07-27T00:00:00Z"
+publishDate: "2022-07-26T00:00:00Z"
 #slides: example
 summary: Melatonin priming as a promising approach to improve biomass accumulation and the nutritional values of Chenopodium quinoa sprouts A genotype-based study
 tags:
