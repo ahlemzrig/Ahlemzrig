@@ -25,7 +25,10 @@ feature:
   icon: chart-line
   icon_pack: fas
   name: Data management
-
+- description: ''
+  icon: business-time
+  icon_pack: fas 
+  name:  Directorship
 
 
 # Uncomment to use emoji icons.
