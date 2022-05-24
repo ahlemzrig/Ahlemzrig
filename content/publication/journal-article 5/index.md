@@ -3,7 +3,11 @@ abstract: Edible sprouts are rich in flavonoids and other polyphenols, as well a
 author_notes:
 - Equal contribution
 - Equal contribution
+- Data management and statistic analysis
+
 authors:
+- Ahlem Zrig 
+- Ahmed M.Salehb
 - admin
 #- Robert Ford
 #date: "2022-07-01T00:00:00Z"
