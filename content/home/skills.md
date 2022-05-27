@@ -20,7 +20,7 @@ feature:
 - description: ''
   icon: r-project
   icon_pack: fab
-  name: R prgramming
+  name: R programming
 - description: ''
   icon: chart-line
   icon_pack: fas
