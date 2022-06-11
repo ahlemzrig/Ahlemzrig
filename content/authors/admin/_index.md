@@ -18,6 +18,10 @@ interests:
 organizations:
 - name: Higher Institute of Management of Gabès
   url: http://www.isggb.rnu.tn/
+- name: and
+  url: 
+- name: Higher Institute of Management of Tunis, GEF2A-Lab, Le Bardo 2000, Tunis, Tunisia
+  url: https://isg.rnu.tn/
 role: Ph.D. in Finance
 social:
 - icon: envelope
