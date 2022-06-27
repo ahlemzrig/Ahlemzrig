@@ -14,7 +14,7 @@ image:
   preview_only: false
 projects: []
 publication: '*the Handbook Crises and Uncertainty in the Economy,1*(1)'
-publication_short: ""
+publication_short: "HCUE"
 publication_types:
 - "6"
 publishDate: "2022-08-01T00:00:00Z"
