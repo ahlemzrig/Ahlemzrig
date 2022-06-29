@@ -22,7 +22,7 @@ publishDate: "2022-08-19T00:00:00Z"
 summary: Stock buybacks and financial turmoil pros and cons for investors
 tags:
 - Source Themes
-title: Stock buybacks and financial turmoi pros and cons for investors
+title: Stock buybacks and financial turmoil pros and cons for investors
 #url_code: ""
 url_dataset: 
 url_pdf: 
