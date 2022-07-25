@@ -13,7 +13,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: 'Edition Universitaire Europeenne '
+publication: 'Edition Universitaire Europeenne'
 publication_short: ""
 publication_types:
 - "5"

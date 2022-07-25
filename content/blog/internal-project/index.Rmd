@@ -19,29 +19,32 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
+The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms
 
+Installation
+Coming soon You can install the released version of tunisianfirms from CRAN soon.
+However, you can install from github with these 
 
 ```{r}
-
-#The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms
-
-#Installation
-#Coming soon You can install the released version of tunisianfirms from CRAN with:
-
-#install.packages("tunisianfirms")
-#or
-
-#install.packages("tunisianfirms")
 library(devtools)
-#devtools::install_github("Foha2001/tunisianfirms")
-#you have to install devtools before, when installing from github
+devtools::install_github("Foha2001/tunisianfirms")
+```
+you have to install devtools before, when installing from github
+call the package with :
+```{r}
 library(tunisianfirms)
-## basic example code
+```
+basic example code
+
+```{r}
 cotation("ATTIJARIBANK")
 
 ```
-<!-- Example -->
-<!-- This is a basic example which shows you how to solve a common problem: -->
+
+
+To show a sample_example run
+
+
 ```{r}
 
 head(sample_data)
