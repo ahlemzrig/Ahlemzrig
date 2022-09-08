@@ -5,7 +5,7 @@ education:
   courses:
   - course: PhD in Finance
     institution: Higher Institute of Management of Tunis
-    year: 2010
+    year: 
   
 email: ""
 highlight_name: false
