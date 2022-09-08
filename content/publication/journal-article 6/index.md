@@ -17,7 +17,7 @@ publication: '*Handbook of investment analysis, portfolio management and Financi
 publication_short: ""
 publication_types:
 - "6"
-publishDate: "2023-04-19T00:00:00Z"
+publishDate: "2023-04-01T00:00:00Z"
 #slides: example
 summary: Stock buybacks and financial turmoil pros and cons for investors
 tags:
