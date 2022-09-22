@@ -29,8 +29,9 @@ coordinates:
   longitude: '10.09087'
 directions: Enter Building 1 and take the stairs to Office 10 on Floor 1
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Thursday 09:00 to 11:00'
+  - 'Thursday  09:00 to 11:00'
+  - 'Wednesday 08:00 to 11:00'
+  - 'Thursday  08:00 to 11:00'
 #appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
