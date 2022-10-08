@@ -13,7 +13,7 @@ links:
 summary: Package presentation.
 tags:
 - Deep Learning
-title: Risk Management in R 
+title: Risk Management blog 
 url_code: ""
 url_pdf: ""
 url_slides: ""
