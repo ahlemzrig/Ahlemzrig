@@ -13,7 +13,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*Journal of Risk Management in Financial Institutions, 16*(1)'
+publication: '*Journal of Risk Management in Financial Institutions,16*(1)'
 publication_short: ""
 publication_types:
 - "2"
@@ -25,7 +25,7 @@ tags:
 title: What can we learn about repurchase programs and systemic risk evidence from U S banks during financial turmoil
 #url_code: ""
 #url_dataset: 
-url_pdf: www.foued.com
+url_pdf: https://www.tinyurl.com
 # url_poster: ""
 # url_project: ""
 # url_slides: ""
