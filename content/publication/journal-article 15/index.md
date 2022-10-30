@@ -19,13 +19,13 @@ publication_types:
 - "2"
 publishDate: "2023-01-27T00:00:00Z"
 #slides: example
-summary:  What can we learn about repurchase programs and systemic risk evidence from U S banks during financial turmoil
+summary: What can we learn about repurchase programs and systemic risk evidence from U S banks during financial turmoil
 tags:
 - Source Themes
 title: What can we learn about repurchase programs and systemic risk evidence from U S banks during financial turmoil
 #url_code: ""
 #url_dataset: 
-url_pdf:
+url_pdf: www.foued.com
 # url_poster: ""
 # url_project: ""
 # url_slides: ""
