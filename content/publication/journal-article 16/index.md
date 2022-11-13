@@ -6,7 +6,7 @@ author_notes:
 authors:
 - admin
 #- Robert Ford
-#date: "2017-07-01T00:00:00Z"
+#date: "2020-07-01T00:00:00Z"
 doi: ""
 featured: false
 image:
@@ -15,7 +15,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Crises and Uncertainty in the Economy,1*(1)'
-publication_short: ""
+publication_short: "forthcoming"
 publication_types:
 - "6"
 publishDate: "2023-01-01T00:00:00Z"
