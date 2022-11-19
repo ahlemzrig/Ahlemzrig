@@ -1,7 +1,7 @@
 ---
 abstract: Alors que  la  finance de marché est de  plus en plus enseignée dans les universités, il manquait encore un manuel de référence, qui guide l’utilisateur  pas à pas  dans le traitement de l’ensemble des modèles de marché. Finance de marché avec Excel vous aidera à mettre en place les différents modèles de gestion de portefeuille et vous permettra grâce à la clarté de son exposition de connaitre les bases de la théorie moderne de portefeuille.Cet ouvrage accompagne l’étudiant en Licence et Master en sciences économiques et de gestion  dans son apprentissage de la finance de marché avec Excel.  
 author_notes:
-- 
+- Corresponding author
 authors:
 - admin
 #- Robert Ford
