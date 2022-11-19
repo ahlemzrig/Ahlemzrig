@@ -2,7 +2,6 @@
 abstract: We study the relative performance of Value at Risk models using daily return of TUNINDEX stock index prior to and after the recent financial crisis the COVID 19 virus. Using the NGARCH model, which considers the leverage effect, we model the conditional volatility of each series. We used the backtest technique to compare the accuracy of five VaR estimates. The result suggests that the conditional EVT is more relevant and the best performing model. In terms of VaR forecasting, as this model obviously beats other competitive models, we encourage the use of this model when controlling market risk in such a market.
 author_notes:
 - Corresponding author
-- Data analysis
 authors:
 - admin
 #- Robert Ford
