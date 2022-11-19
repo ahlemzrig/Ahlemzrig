@@ -1,5 +1,5 @@
 ---
-abstract: Financial crisis shows significant uncertainties in corporate financing conditions. This study draws on economic conditions toask if buyback programs are related to the business cycle and the stock market volatility. The results show both unidirectional and bidirectional causality between buyback, business cycle and stock market volatility. It also shows that financial crisis plays an important role, suggesting that firms increase their buyback depending on their economic condition.. 
+abstract: Financial crisis shows significant uncertainties in corporate financing conditions. This study draws on economic conditions task if buyback programs are related to the business cycle and the stock market volatility. The results show both unidirectional and bidirectional causality between buyback, business cycle and stock market volatility. It also shows that financial crisis plays an important role, suggesting that firms increase their buyback depending on their economic condition.. 
 author_notes:
 - Equal contribution
 authors:
