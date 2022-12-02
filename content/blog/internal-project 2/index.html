@@ -22,4 +22,23 @@ url_video: ""
 
 
 
-<p>Here, I will share materials with my students on risk management course. Some R codes will be completed by my students in class.</p>
+<div id="material-1-building-packages-code" class="section level1">
+<h1>Material 1: Building packages code</h1>
+<p>To build package use these commands:</p>
+<pre class="r"><code> library(devtools)</code></pre>
+<pre><code>## Loading required package: usethis</code></pre>
+<pre class="r"><code> library(usethis) </code></pre>
+<ul>
+<li>usethis::use_r(“nomdufichier”) : to add R file and write function</li>
+<li>devtools::load_all() : to load all related functions to yours</li>
+<li>devtools::install() : to install your package</li>
+<li>devtools::document() : to document your package using roxygen</li>
+<li>usethis::create_package() : to directly create package</li>
+<li>usethis::use_git() : to use package version control vith github</li>
+<li>devtools::load_all() : to load all source functions to be able to test package</li>
+<li>devtools::check() : to check our package</li>
+<li>use_data_raw() : create file to build data</li>
+<li>usethis::use_data(my data, compress=“xz”): to add data to my package</li>
+<li>use_package(“add any package you need”) : add any package to import from to description file</li>
+</ul>
+</div>
