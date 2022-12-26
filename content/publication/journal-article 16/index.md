@@ -14,7 +14,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Crises and Uncertainty in the Economy,1*(1)'
-publication_short: "January"
+publication_short: ""
 publication_types:
 - "6"
 publishDate: "2023-01-01T00:00:00Z"
