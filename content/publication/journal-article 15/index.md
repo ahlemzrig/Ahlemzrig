@@ -17,7 +17,7 @@ publication: '*Journal of Risk Management in Financial Institutions,16*(1)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2023-01-17T00:00:00Z"
+publishDate: "2022-12-17T00:00:00Z"
 #slides: example
 summary: What can we learn about repurchase programs and systemic risk evidence from U S banks during financial turmoil
 tags:
