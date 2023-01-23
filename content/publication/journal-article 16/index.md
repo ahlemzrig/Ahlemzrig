@@ -17,12 +17,12 @@ publication: '*Crises and Uncertainty in the Economy,1*(1)'
 publication_short: ""
 publication_types:
 - "6"
-publishDate: "2023-01-01T00:00:00Z"
+publishDate: "2023-01-14T00:00:00Z"
 #slides: example
-summary: Comparing risk with VaR models in COVID 19 pandemic period
+summary: How Accurate Are Risk Models During COVID-19 Pandemic Period
 tags:
 - Source Themes
-title: Comparing risk with VaR models in COVID 19 pandemic period
+title: How Accurate Are Risk Models During COVID-19 Pandemic Period
 #url_code: ""
 #url_dataset: 
 url_pdf: https://www.lavoisier.fr/livre/economie/crises-and-uncertainty-in-the-economy/descriptif_4719103
