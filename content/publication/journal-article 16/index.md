@@ -25,7 +25,7 @@ tags:
 title: How Accurate Are Risk Models During COVID-19 Pandemic Period
 #url_code: ""
 #url_dataset: 
-url_pdf: https://www.lavoisier.fr/livre/economie/crises-and-uncertainty-in-the-economy/descriptif_4719103
+url_pdf: https://link.springer.com/chapter/10.1007/978-981-19-3296-0_12
 # url_poster: ""
 # url_project: ""
 # url_slides: ""
