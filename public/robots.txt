@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://fouedhamouda.netlify.app/sitemap.xml
