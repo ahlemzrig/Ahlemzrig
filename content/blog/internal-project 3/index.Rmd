@@ -14,6 +14,10 @@ summary: All my lectures here
 tags:
 - Deep Learning
 title: Lectures
+toc: true
+output:
+  blogdown::html_page:
+    toc: true
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -21,6 +25,7 @@ url_video: ""
 
 ---
 In this section, you will find my lectures in class for the year 2022-2023 
+
 
 - [Course #1: International Finance ](https://foha2001.github.io/financeinternationale-website/)
 - [Course #2: Advanced methods to firm's evaluation ](https://foha2001.github.io/MAEE/)
