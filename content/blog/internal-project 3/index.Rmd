@@ -30,7 +30,7 @@ In this section, you will find my lectures in class for the year 2022-2023
 - [Course #1: International Finance ](https://foha2001.github.io/financeinternationale-website/)
 - [Course #2: Advanced methods to firm's evaluation ](https://foha2001.github.io/MAEE/)
 - [Course #3: Corporate finance ](https://foha2001.github.io/finance-d-entreprise/)
-- [Course #4: Financial ingineering](https://foha2001.github.io/IF/)
+- [Course #4: Financial engineering](https://foha2001.github.io/IF/)
 
 All websites are in french language (official language to lean in the university)
 
