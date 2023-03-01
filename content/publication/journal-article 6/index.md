@@ -25,7 +25,7 @@ tags:
 title: Stock buybacks and financial turmoil pros and cons for investors
 #url_code: ""
 url_dataset: 
-url_pdf: https://www.amazon.com/Investment-Portfolio-Management-Financial-Derivatives/dp/9811269939/ref=sr_1_1?qid=1660410412&refinements=p_27%3ACheng+Few+Lee&s=books&sr=1-1&text=Cheng+Few+Lee
+url_pdf: https://worldscientific.com/worldscibooks/10.1142/13051#t=aboutBook
 # url_poster: ""
 # url_project: ""
 # url_slides: ""
