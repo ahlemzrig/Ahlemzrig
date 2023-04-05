@@ -7,7 +7,7 @@ image:
 links:
 - icon: github
   icon_pack: fab
-  name: Material for my students Tunisianfirm package
+  name: Project
   url: https://github.com/Foha2001/tunisianfirms
 #slides: example
 summary: Package presentation.
