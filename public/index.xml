@@ -5,7 +5,7 @@
     <link>https://fouedhamouda.netlify.app/</link>
       <atom:link href="https://fouedhamouda.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://fouedhamouda.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title></title>
@@ -110,8 +110,16 @@ The variance of the distribution is $\sigma^{2}$.
     <item>
       <title>What can we learn about repurchase programs and systemic risk evidence from U S banks during financial turmoil</title>
       <link>https://fouedhamouda.netlify.app/publication/journal-article-15/</link>
-      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://fouedhamouda.netlify.app/publication/journal-article-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stock buybacks and financial turmoil pros and cons for investors</title>
+      <link>https://fouedhamouda.netlify.app/publication/journal-article-6/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://fouedhamouda.netlify.app/publication/journal-article-6/</guid>
       <description></description>
     </item>
     
@@ -137,6 +145,445 @@ The variance of the distribution is $\sigma^{2}$.
       <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://fouedhamouda.netlify.app/publication/journal-article-5/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to R</title>
+      <link>https://fouedhamouda.netlify.app/blog/internal-project-4/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://fouedhamouda.netlify.app/blog/internal-project-4/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#my-experiences-teaching-r&#34; id=&#34;toc-my-experiences-teaching-r&#34;&gt;My Experiences Teaching R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installing-r-and-rstudio&#34; id=&#34;toc-installing-r-and-rstudio&#34;&gt;Installing R and RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-familiar-with-rstudio&#34; id=&#34;toc-getting-familiar-with-rstudio&#34;&gt;Getting familiar with RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#working-directory&#34; id=&#34;toc-working-directory&#34;&gt;Working Directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#r-projects&#34; id=&#34;toc-r-projects&#34;&gt;R Projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#r-scripts&#34; id=&#34;toc-r-scripts&#34;&gt;R Scripts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#r-markdown&#34; id=&#34;toc-r-markdown&#34;&gt;R Markdown&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#yaml-section&#34; id=&#34;toc-yaml-section&#34;&gt;YAML Section&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#r-chunks&#34; id=&#34;toc-r-chunks&#34;&gt;R Chunks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#markdown&#34; id=&#34;toc-markdown&#34;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#tidyverse&#34; id=&#34;toc-tidyverse&#34;&gt;Tidyverse!!&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-tidyverse&#34; id=&#34;toc-what-is-tidyverse&#34;&gt;What is tidyverse?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installing-tidyverse&#34; id=&#34;toc-installing-tidyverse&#34;&gt;Installing tidyverse&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installing-non-cran-packages&#34; id=&#34;toc-installing-non-cran-packages&#34;&gt;Installing non-CRAN packages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#loading-tidyverse&#34; id=&#34;toc-loading-tidyverse&#34;&gt;Loading tidyverse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-pipe&#34; id=&#34;toc-the-pipe&#34;&gt;The Pipe &lt;code&gt;%&amp;gt;%&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#my-workflow&#34; id=&#34;toc-my-workflow&#34;&gt;My Workflow&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#load-in-libraries&#34; id=&#34;toc-load-in-libraries&#34;&gt;Load in libraries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#read-in-data&#34; id=&#34;toc-read-in-data&#34;&gt;Read in data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#clean-our-data&#34; id=&#34;toc-clean-our-data&#34;&gt;Clean our data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#visualise-our-results&#34; id=&#34;toc-visualise-our-results&#34;&gt;Visualise our results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ggplot-challenge&#34; id=&#34;toc-ggplot-challenge&#34;&gt;ggplot challenge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- have to knit first if .Rmd --&gt;
+&lt;!-- for step by step guide to get a sticky floating header. make sure to remove index.html if that exists. Also in config.yaml have to set TOC to start from level 1 https://mickael.canouil.fr/post/floating-toc-in-blogdown/#modify-the-layout --&gt;
+&lt;!-- in order to be able to get toc: true or toc: false, had to use code from CharlieLeee https://github.com/wowchemy/wowchemy-hugo-themes/issues/1520#issuecomment-601982609 for the single.html and I&#39;m not sure why, but also only worked if file saved as .md not .Rmd --&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+
+body {
+  font-size: 14pt;
+}
+
+p1 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+p2 {
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+h1 { /* Header 2 */
+    font-size: 32px;
+    color: DarkBlue;
+    font-weight: bold;
+}
+
+h2 { /* Header 1 */
+  font-size: 24px;
+  color: #9d3ae8;
+  font-weight: bold;
+}
+
+h3 { /* Header 2 */
+  font-size: 24px;
+  color: #9d3ae8;
+  font-weight: bold;
+}
+
+&lt;/style&gt;
+&lt;div id=&#34;my-experiences-teaching-r&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;My Experiences Teaching R&lt;/h1&gt;
+&lt;p&gt;&lt;p1&gt; During my years as a PhD student, I’ve had the pleasure to teach hundreds of students in several different psychology courses. However, my favorite courses have involved teaching R to students - many of whom had never heard of R before. The first time I taught R was to a group of extremely motivated high school students during an intensive summer school program called SciX (Science Extension Program) in January 2021. You can check out my blog on SciX for more details &lt;a href=&#34;https://jennysloane.netlify.app/blog/scix/&#34;&gt;here&lt;/a&gt;. &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; A few months later I had the opportunity to be a tutor/Teaching Assistant for a “Psychology Research Internship” course for university students. In the course, students learned all about open science and reproducibility. In fact, students had the daunting task to try to reproduce plots &lt;strong&gt;in R&lt;/strong&gt; from open source, published papers. Every week I ran 1 session that was dedicated to teaching the students new features, packages, and functions in R and 1 session that was dedicated to answering any questions the students had or troubleshoot error messages. In just 10 weeks, students went from not knowing a single thing about R to creating beautiful visualisations and submitting their final reports in Rmarkdown. Their final reports included all of their code and progress from along the way and it was absolutely amazing to see! It was definitely one of the most rewarding experiences for me as a teacher. &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; After teaching these courses, I’m keen to share everything I learned about teaching R as I’m sure there are many people out there who have heard about R or want to learn, but have no idea where to start. If this is you, I hope you find this blog helpful! &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; In this blog I’ll cover what I believe to be the most essential things in order to get started on your coding journey. Of course I won’t be able to go into too much detail on any one topic, but I’ll provide incredibly useful resources 📚 along the way. &lt;/p1&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;installing-r-and-rstudio&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Installing R and RStudio&lt;/h1&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ozgTOQ4bOoI&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;R is a free, open source programming language that is often used for statistical and data analyses and visualizations&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;RStudio is an IDE (integrated development environment) for R&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;You will need to install/download both R and RStudio&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can install &lt;strong&gt;R&lt;/strong&gt; from the &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;CRAN (Comprehensive R Archive Network) website&lt;/a&gt;. I suggest downloading the latest version, which (as of the time of writing this blog) is R 4.1.1&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/bin/windows/base/&#34;&gt;R for Windows link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;R for Mac link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can download &lt;strong&gt;RStudio&lt;/strong&gt; &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Although you need to have R installed, you will mostly likely never need to open R because you can do everything you need in RStudio&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;getting-familiar-with-rstudio&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Getting familiar with RStudio&lt;/h1&gt;
+&lt;p&gt;There are 4 panes you will quickly become very familiar with within RStudio&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/rstudio.png&#34; /&gt;&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Top Left: This is the &lt;strong&gt;Source Editor&lt;/strong&gt; where you write scripts
+&lt;ul&gt;
+&lt;li&gt;To test it out, you can go File → New File → R Script&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Bottom Left: This is the &lt;strong&gt;Console&lt;/strong&gt; where you can type code that you want to run one time and don’t want to save it to a script. If you run a line of code in a script, depending on your settings, you may see the output in your console&lt;/li&gt;
+&lt;li&gt;Top Right: There are quite a few tabs here, but the most important tab for beginners is the &lt;strong&gt;Environment&lt;/strong&gt; tab where you can see all of your saved variables and objects&lt;/li&gt;
+&lt;li&gt;Bottom Right: There are also several tabs here, but here you can see:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Files&lt;/strong&gt; that are located within your working directory&lt;/li&gt;
+&lt;li&gt;Your beautiful &lt;strong&gt;plots&lt;/strong&gt; and visualizations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Packages&lt;/strong&gt; that you already have or would like to install&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Help&lt;/strong&gt; documentation. This is a really great built in feature to help you understand specific functions. To test this out type &lt;code&gt;?mean&lt;/code&gt; into the console and you will see the documentation for the mean() function. This is incredibly useful to see what the function looks like, including what arguments it takes, and often there will be examples at the bottom of the documentation with code for you to test out the function.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: &lt;a href=&#34;https://rladiessydney.org/courses/ryouwithme/01-basicbasics-1/&#34;&gt;R-Ladies Sydney RYouWithMe BasicBasics Tutorial&lt;/a&gt; &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; Tip: Want to work in dark mode or change your color theme? Navigate to: Tools → Global Options → Appearance and test out different color themes (I use “Tomorrow Night Bright”) &lt;/p1&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;working-directory&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Working Directory&lt;/h1&gt;
+&lt;p&gt;Before getting started with some coding, it’s important to understand what a working directory is.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What is a working directory?&lt;/strong&gt; A working directory (wd) is the location where R will look for files. This is where R believes you are located.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How do you know what your wd is?&lt;/strong&gt; In the console type &lt;code&gt;getwd()&lt;/code&gt; to see what’s called your “current working directory”. You may notice that this path will most likely align with the path at the top of the Files tab because, again, this is where R thinks you are located. If you want load in any files, you must be in the correct working directory or R will return an error saying &lt;code&gt;cannot open file x: No such file or directory&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How do you set your wd?&lt;/strong&gt; There are a few ways you can do this…
+&lt;ul&gt;
+&lt;li&gt;Option 1 (not recommended): Session → Set Working Directory → Choose Directory and navigate to find the correct folder&lt;/li&gt;
+&lt;li&gt;Option 2 (also not recommended): &lt;code&gt;setwd()&lt;/code&gt; to manually enter the path you want&lt;/li&gt;
+&lt;li&gt;Option 3 (highly recommended!): Create an &lt;strong&gt;R Project&lt;/strong&gt; that will automatically set your wd to where your project is saved&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-projects&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Projects&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;images/rproj.png&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What is an R Project?&lt;/strong&gt; An R project is just a way to keep all of your files associated with any given project together, organized, and easily accessible. If you wish to test out how to set up an R Project, following along with the next few steps. Take a look in the top right hand corner of RStudio and you will see a blue R cube. Assuming you haven’t already created a project, it will say “Project: (None)”. To create a new project, click on that and select New Project. You will see the following options:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/project.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This is where you decide where you want your project to be located. If you already have an existing folder choose “Existing Directory” and navigate to the correct folder and create your project. If you want to create a new folder choose the “New Directory” and New Project. Here you will have to create a name for your directory and again select where you want your project to be located and then Create Project. We won’t worry about the version control option for now, but you may find it super handy, especially if you use GitHub.&lt;/p&gt;
+&lt;p&gt;Once you’ve created your project, I suggest closing out of RStudio and navigating to your files where you just saved your project. You should see the familiar looking R cube with your directory name. Now all you have to do to open your project is double click on this R cube. RStudio will automatically open and you can type &lt;code&gt;getwd()&lt;/code&gt; in the console to confirm you’re in the correct location and you files will be in the Files tab. If you followed along with these steps, congrats on setting up your first R project! 😄&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-scripts&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Scripts&lt;/h1&gt;
+&lt;p&gt;Now that we’ve covered some of the basics, let’s write our first R script!&lt;/p&gt;
+&lt;p&gt;To start, click File → New File → R Script. Let’s first save our script by clicking on the save icon or ctrl/cmd + S. As I’m not very creative… I’ll call my script “r_script”.&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; One important note here: it’s best practice to avoid using spaces when naming scripts or folders. If you use spaces, you will most likely run into an error message, so best to avoid white spaces altogether. &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;I recommend saving this in the same location as your R Project so it’s all in the same place and easy to find. If you click on the Files tab, you should see your script is now there! For me, I now have a file called &lt;code&gt;r_script.R&lt;/code&gt; - notice it has automatically added the extension .R as it’s an R Script. You can also see it says &lt;code&gt;R Script&lt;/code&gt; in the bottom right corner of your Source Editor.&lt;/p&gt;
+&lt;p&gt;Great, let’s start coding!&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# type or copy the following code into your script:
+print(&amp;quot;My first script!!&amp;quot;) 
+
+10 + 20 + 30
+
+x = 1 + 2 + 3&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Okay a few things to go over here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anything written after a # is “commented out”. This means R won’t read or evaluate anything following a #. This is perfect for leaving comments or notes to yourself like I have done above&lt;/li&gt;
+&lt;li&gt;To run your entire script, click Source and then Source with echo (echo will print out your code along with the output)
+&lt;ul&gt;
+&lt;li&gt;You should see that the first line of code printed “My first script!!”&lt;/li&gt;
+&lt;li&gt;The second line of code printed the output “60”&lt;/li&gt;
+&lt;li&gt;But, the last line of code didn’t print any output. This is because the last line we are defining a variable “x”. So, although nothing is printed in our console output, check out your Environment - you should see you now have your variable “x” saved there and it’s value is 6!&lt;/li&gt;
+&lt;li&gt;Because you have x saved in your environment, now if you type x in your console, you will see the output&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;You can also run your script line by line. One way to do this is put your cursor on the line you want to run and click the green Run button. Or, put your cursor on the line you want to run and press ctr (or cmd) + enter. You’ll see your cursor moves down a line automatically after you run one line. So if you start at the top of your script and press and hold down ctrl and press enter 3 times, all 3 lines of code will run.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;When I started coding, I only used R scripts. But then I discovered R Markdown and now I use .Rmd scripts exclusively. R Markdown is a great way to create beautiful reports with a mix of text/notes and code. R Markdown files can also be easily converted to html, pdf, or word docs.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/art_markdown2.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;So, now let’s create our first Rmarkdown script!&lt;/p&gt;
+&lt;p&gt;Click File → New File → R Markdown.. and enter a title for your script - I’ll title mine “My Rmarkdown Script” (note: the title here can have spaces). I’ll stick with the default HTML format, so then can click Okay. Notice now that the bottom right hand corner of the source editor now says &lt;code&gt;R Markdown&lt;/code&gt;. Even though we created our file and provided a title, we still have to save our file. I’ll save mine as &lt;code&gt;rmd_script&lt;/code&gt; and the .Rmd extension will again be added automatically.&lt;/p&gt;
+&lt;p&gt;When we created our .R script, we had a blank script, but now we see that we are provided with a default template. There are 4 things I want to quickly point out here, but will go into more detail of each below.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;The &lt;strong&gt;YAML&lt;/strong&gt; header section: this is located at the top of our markdown file, enclosed by &lt;code&gt;---&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R chunks&lt;/strong&gt;: if you want to write code, you have to create an R chunk, which will always have this formatting: ```{r }…```. This is an example of one:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;images/chunk_setup.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Example R Chunk&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;All other space: everything outside of the YAML and R chunks is for writing text. Remember, R Markdown is a meant for integrating content/text along with code. So, everything here will be text written in the markdown language and there’s no need for the # like we needed in our R script.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You may have noticed in our .Rmd script (at the top) we have a new &lt;code&gt;Knit&lt;/code&gt; button that we didn’t have in our .R script. Go ahead and press this button to watch R knit your file from R to html (because that’s what we’ve specified the output to be). Your “knitted” file will either appear in the Viewer pane or in a new window depending on your settings. Here we see we have our title, some text, some code, and even a plot! Pretty cool right?!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+Now, let’s spend a little more time discussing each of these sections in more detail.
+&lt;/p&gt;
+&lt;div id=&#34;yaml-section&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;YAML Section&lt;/h2&gt;
+&lt;p&gt;In our default YAML, we already have a &lt;code&gt;title&lt;/code&gt; and &lt;code&gt;output&lt;/code&gt; specified. There are other arguments you can add here, such as &lt;code&gt;author&lt;/code&gt; or &lt;code&gt;date&lt;/code&gt;. Let’s add the author argument to test it out. &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Try knitting your file again. Now you should see your name appear under the title.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;---
+title: &amp;quot;My Rmarkdown Script&amp;quot;
+output: html_document
+author: Jenny Sloane 
+---&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;p1&gt; Note: It’s important to pay attention to spacing here. For example, if I had &lt;code&gt;author:Jenny Sloane&lt;/code&gt; without the space I would have issues with knitting my document. &lt;/p1&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-chunks&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;R Chunks&lt;/h2&gt;
+&lt;p&gt;We already have a few chunks created for us in our template. In any code chunk, you’ll see a few buttons in the top right corner: an options/gear button and 2 arrows.
+- The gear button allows you to modify chunk options (I don’t think I’ve ever used this).
+- Next to the gear button, there’s an arrow pointing down, which if you click it will run all of the chunks &lt;em&gt;above&lt;/em&gt; the current chunk.
+- Finally, the green arrow pointing to the right will run all of the code within that current chunk. Of course you can also run your code line by line the same way as we did in the .R scripts (I usually navigate to the chunk I want to work on, press the arrow pointing down, and then run my code line by line by pressing ctrl + enter).&lt;/p&gt;
+&lt;p&gt;R chunks have certain options you can set. For example, if you want the actual code to appear in your knitted document, you can set &lt;code&gt;echo=TRUE&lt;/code&gt; and if you only want the output to appear and no code you can set &lt;code&gt;echo=FALSE&lt;/code&gt;. Other chunk options that I often use are: &lt;code&gt;include&lt;/code&gt;, &lt;code&gt;warning&lt;/code&gt;, &lt;code&gt;message&lt;/code&gt;, and &lt;code&gt;eval&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The first chunk you see in the template is a little bit different. While this chunk is not necessary and you can remove it if you’d like, this is where you can set global chunk options. For example, you can see echo is set to TRUE here, so this means all of the code will appear in your knitted document. You can override the global chunk settings by directly adjusting the options in any specific chunk.&lt;/p&gt;
+&lt;p&gt;As a small aside, you may have noticed next to the &lt;code&gt;r&lt;/code&gt; in the example chunk above it says “pressure”. This is where you can set a “name” for you chunk, so it makes sense that this chunk is called pressure as it’s plotting pressure. This is just another way to help keep your code and report organized.&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; Fun (and helpful) fact: in the top right hand corner of the Source Editor there is a button that is a stack of line. I’ve heard this referred to as the &lt;em&gt;pancake button&lt;/em&gt;, which I love! If you click on the pancake button, you’ll see an outline for your entire document! To use the outline feature, you simply have to include “headers” within your document. You can include headers by using # (see image below for examples). &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: Check out the R Markdown “Cheat Sheet” by going to Help → Cheat Sheets → R Markdown Cheat Sheet.&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: &lt;a href=&#34;https://www.rstudio.com/resources/cheatsheets/&#34;&gt;Have a look at other existing cheat sheets here&lt;/a&gt;. &lt;/p1&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;markdown&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Markdown&lt;/h2&gt;
+&lt;p&gt;All text outside of the YAML and R chunks is written with &lt;code&gt;Markdown&lt;/code&gt; syntax. You can easily style your text with bold and italics. You can add headers, lists, equations, links, images, and so much more. Below you can see what code looks like in R Markdown compared to what it looks like when it’s knitted to a pdf.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/markdown.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: &lt;a href=&#34;https://rladiessydney.org/courses/ryouwithme/04-markymark-0/&#34;&gt;R-Ladies Sydney RYouWithMe MarkyMark Tutorial&lt;/a&gt; &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: &lt;a href=&#34;https://www.youtube.com/playlist?list=PLRPB0ZzEYegM86awo590bP1MJjQbjdR9E&#34;&gt;A great YouTube playlist by Danielle Navarro on R Markdown&lt;/a&gt; &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/&#34;&gt;https://bookdown.org/yihui/rmarkdown/&lt;/a&gt; is a great website to learn more about R Markdown. &lt;/p1&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tidyverse&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Tidyverse!!&lt;/h1&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/CevBDdAgXIc&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;p&gt;I first learned R in base R, but once I learned about tidyverse there was no going back. There’s so much I can say about tidyverse, but I’ll only cover some of the basics and continue to provide resources along the way.&lt;/p&gt;
+&lt;div id=&#34;what-is-tidyverse&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What is tidyverse?&lt;/h2&gt;
+&lt;p&gt;Tidyverse is a collection of 8 packages (&lt;code&gt;ggplot2&lt;/code&gt;, &lt;code&gt;dplyr&lt;/code&gt;, &lt;code&gt;tidyr&lt;/code&gt;, &lt;code&gt;readr&lt;/code&gt;, &lt;code&gt;purrr&lt;/code&gt;, &lt;code&gt;tibble&lt;/code&gt;, &lt;code&gt;stringr&lt;/code&gt;, &lt;code&gt;forcats&lt;/code&gt;) introduced by Hadley Wickham to help with data manipulation, exploration, and visualisation.
+- Check out the &lt;a href=&#34;https://www.tidyverse.org/packages/&#34;&gt;tidyverse website&lt;/a&gt; to find out more details of each of the individual packages&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;installing-tidyverse&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Installing tidyverse&lt;/h2&gt;
+&lt;p&gt;Whenever you want to use a package, the first thing you have to do is install the package. Once you install a package, it will remain installed on your computer, so you only have to install it once (I always install packages in my console as there’s no need to save it to a script)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The code to install tidyverse looks like this &lt;code&gt;install.packages(&#34;tidyverse&#34;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The install.packages() functions will install packages that are part of CRAN (Comprehensive R Archive Network)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;installing-non-cran-packages&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Installing non-CRAN packages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;However, not all packages are part of CRAN (especially one’s that are still in development). If you get a warning like the &lt;code&gt;package ‘xxx’ is not available for this version of R&lt;/code&gt;, that’s a good indication that it’s not on CRAN.&lt;/li&gt;
+&lt;li&gt;If it’s not on CRAN, you’ll need to locate the repository on GitHub and install via &lt;code&gt;devtools&lt;/code&gt;.
+&lt;ul&gt;
+&lt;li&gt;For example, if I wanted to install the package “emo” for emojis 🎉 , I would type in something like “emo package R” into Google and search for the GitHub page, which would be &lt;a href=&#34;https://github.com/hadley/emo&#34;&gt;https://github.com/hadley/emo&lt;/a&gt;. There are instructions for how to install the package in the ReadMe document if you scroll down on the page.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: Here’s a great blog on &lt;a href=&#34;https://www.littlemissdata.com/blog/r-package-install&#34;&gt;“R Package Install Troubleshooting””&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;loading-tidyverse&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Loading tidyverse&lt;/h2&gt;
+&lt;p&gt;It’s not enough to just install the package. Every time you start a new R session, you need to load in the packages you wish to use, so I always put this code within my script as it needs to run every session.
+- The code to load the package looks like this: &lt;code&gt;library(tidyverse)&lt;/code&gt;
+- Whenever you load tidyverse, you will see a message saying it’s attaching all 8 packages. Therefore, you don’t have to load in any of the individual packages because they all get called in together. This means as long as you load in tidyverse, you can use functions from any one of the 8 packages.&lt;/p&gt;
+&lt;p&gt;So, you can think about it as having an entire library of all the packages you’ve ever installed. But, in each script and session you need to specify which libraries (aka packages) you want to load in.&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; Note: when you install packages you need to use ” ” around the package name, but you don’t need to when you call in the library. &lt;/p1&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-pipe&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Pipe &lt;code&gt;%&amp;gt;%&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;This is the pipe operator: &lt;code&gt;%&amp;gt;%&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you use tidyverse, you will quickly become very familiar with this operator. You use the pipe when you want to execute multiple operations in a specific sequence. To me, it makes sense to think about the pipe as “AND THEN”.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;I want to do x AND THEN
+I want to do y AND THEN
+I want to do z&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;which is equivalent to:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;I want to do x %&amp;gt;%
+I want to do y %&amp;gt;%
+I want to do z&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For a real example, let’s look at some code below. In the code, we’ll first load in &lt;code&gt;tidyverse&lt;/code&gt; and the &lt;code&gt;palmerpenguins&lt;/code&gt; libraries (you may need to install it if you’ve never used it before). With the &lt;code&gt;palmerpenguins&lt;/code&gt; package, there’s a built in &lt;code&gt;penguins&lt;/code&gt; dataset that we’ll explore.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(palmerpenguins) 
+
+head(penguins) # gives us the first 6 rows of our dataset&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 6 × 8
+##   species island    bill_length_mm bill_depth_mm flipper_l…¹ body_…² sex    year
+##   &amp;lt;fct&amp;gt;   &amp;lt;fct&amp;gt;              &amp;lt;dbl&amp;gt;         &amp;lt;dbl&amp;gt;       &amp;lt;int&amp;gt;   &amp;lt;int&amp;gt; &amp;lt;fct&amp;gt; &amp;lt;int&amp;gt;
+## 1 Adelie  Torgersen           39.1          18.7         181    3750 male   2007
+## 2 Adelie  Torgersen           39.5          17.4         186    3800 fema…  2007
+## 3 Adelie  Torgersen           40.3          18           195    3250 fema…  2007
+## 4 Adelie  Torgersen           NA            NA            NA      NA &amp;lt;NA&amp;gt;   2007
+## 5 Adelie  Torgersen           36.7          19.3         193    3450 fema…  2007
+## 6 Adelie  Torgersen           39.3          20.6         190    3650 male   2007
+## # … with abbreviated variable names ¹​flipper_length_mm, ²​body_mass_g&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;levels(penguins$island)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;Biscoe&amp;quot;    &amp;quot;Dream&amp;quot;     &amp;quot;Torgersen&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;levels(penguins$species)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;Adelie&amp;quot;    &amp;quot;Chinstrap&amp;quot; &amp;quot;Gentoo&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;From quickly looking at the levels of a couple of variables, we can see there are 3 islands (Biscoe, Dream, Torgersen) and 3 species (Adelie, Chinstrap, Gentoo).&lt;/p&gt;
+&lt;p&gt;I like the idea of a “Dream” island, so the question I’ll ask here is:&lt;/p&gt;
+&lt;center&gt;
+&lt;strong&gt;What is the mean body mass for female and male Adelie penguins on Dream island?“&lt;/strong&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Here’s the code to answer my question and below I’ll go through the pipes line by line:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;penguins %&amp;gt;%
+  select(species, island, body_mass_g, sex) %&amp;gt;% # step 1
+  filter(species == &amp;quot;Adelie&amp;quot; &amp;amp; island == &amp;quot;Dream&amp;quot;) %&amp;gt;% # step 2
+  group_by(sex) %&amp;gt;% # step 3
+  summarise(mean_body_mass = mean(body_mass_g)) %&amp;gt;% # step 4
+  drop_na() # step 5&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 2 × 2
+##   sex    mean_body_mass
+##   &amp;lt;fct&amp;gt;           &amp;lt;dbl&amp;gt;
+## 1 female          3344.
+## 2 male            4046.&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Step 1: First, from the penguins data, I’m selecting only the variables I’m interested in AND THEN…&lt;/li&gt;
+&lt;li&gt;Step 2: I’m filtering my data to only have the Adelie species and only from Dream island AND THEN…&lt;/li&gt;
+&lt;li&gt;Step 3: I’m grouping by sex in order to get an average body mass calculation for males and females AND THEN…&lt;/li&gt;
+&lt;li&gt;Step 4: I’m summarizing my data to get the mean body mass AND THEN…&lt;/li&gt;
+&lt;li&gt;Step 5: I’m dropping the NA values&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And finally, we see our output: the mean body mass for females Adelie penguins on Dream island is 3344 grams and 4046 grams for males&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; Of course, it takes time and practice to learn the different functions within tidyverse. But, these are some of the &lt;code&gt;dplyr&lt;/code&gt; functions I use all the time (i.e. &lt;code&gt;select()&lt;/code&gt;, &lt;code&gt;filter()&lt;/code&gt;, &lt;code&gt;group_by()&lt;/code&gt;, &lt;code&gt;summarise()&lt;/code&gt;, and &lt;code&gt;drop_na()&lt;/code&gt;). &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; Tip: To adjust some R Markdown settings go to Tools → Global Options → R Markdown. For example, I have my preferences set to “Show output in: Viewer Pane” as opposed to a new window and personally, I like when the output is printed in the console, rather than inline, so I have “show output inline for all R Markdown documents” unchecked. &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: &lt;a href=&#34;https://rladiessydney.org/courses/ryouwithme/02-cleanitup-0/&#34;&gt;R-Ladies Sydney RYouWithMe “CleanItUp” Tutorial&lt;/a&gt; &lt;/p1&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: &lt;a href=&#34;https://www.youtube.com/playlist?list=PLRPB0ZzEYegPYKRLwJRh4AbWWSiIlzmC7&#34;&gt;Another fabulous YouTube playlist by Danielle Navarro “say hello to your data”&lt;/a&gt; &lt;/p1&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;my-workflow&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;My Workflow&lt;/h1&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TDwJ0Epzq5M&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;p&gt;In this final section, I thought I’d share some tips and an example of my workflow in R. There are many free datasets you can explore within R (e.g. mtcars, iris, penguins from the palmerpenguin package). However, for this blog, I’ve downloaded a dataset from &lt;a href=&#34;https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo&#34;&gt;Kaggle&lt;/a&gt; on the medal standings from the Tokyo Olympics.&lt;/p&gt;
+&lt;center&gt;
+&lt;strong&gt;Research Question: “Which countries (top 5) won the most medals?”&lt;/strong&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Usually when I use R, I have a folder within the root of my project titled “data” and of course this is where I keep the actual data files. This just helps me keep my project more organized and I always know exactly where my data is. So, I’ve done the same thing here - I created a data folder and saved my &lt;code&gt;medals.csv&lt;/code&gt; file there. Note, that this is now one folder “deep” into our project. What this means is that we have to let R know to look inside the “data” folder in order to find our .csv file because it’s not located at the root of our project. But don’t worry, this is easy to do, especially if you know about the &lt;code&gt;here&lt;/code&gt; package.&lt;/p&gt;
+&lt;p&gt;Below I’ll show you my typical workflow using the medals dataset.&lt;/p&gt;
+&lt;div id=&#34;load-in-libraries&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Load in libraries&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(janitor) 
+library(here)
+library(ggeasy) # this is an awesome package to help customize ggplots with easy to remember functions&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;My first chunk of code is always dedicated to loading in all of the libraries I need for my entire script&lt;/li&gt;
+&lt;li&gt;I make sure the chunk options include &lt;code&gt;message=FALSE&lt;/code&gt; and &lt;code&gt;warning=FALSE&lt;/code&gt;, so when I knit the file I don’t see all of the messages and warnings from loading in the respective libraries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;read-in-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Read in data&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;medals_raw &amp;lt;- read_csv(&amp;quot;data/medals.csv&amp;quot;)
+# medals_raw &amp;lt;- read_csv(here(&amp;quot;data&amp;quot;, &amp;quot;medals.csv&amp;quot;)) # this will also work, if you wish to use the here package
+
+head(medals_raw) # look at only the top 6 rows&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 6 × 7
+##   Rank  `Team/NOC`                  Gold Silver Bronze Total `Rank by Total`
+##   &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;                      &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;           &amp;lt;dbl&amp;gt;
+## 1 1     United States of America      39     41     33   113               1
+## 2 2     People&amp;#39;s Republic of China    38     32     18    88               2
+## 3 3     Japan                         27     14     17    58               5
+## 4 4     Great Britain                 22     21     22    65               4
+## 5 5     ROC                           20     28     23    71               3
+## 6 6     Australia                     17      7     22    46               6&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;read_csv()&lt;/code&gt; is very similar to &lt;code&gt;read.csv()&lt;/code&gt;, except it will automatically read your data in as a tibble (a “tidy” dataframe). For this reason, I exclusively use &lt;code&gt;read_csv()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;I could also use the &lt;code&gt;here()&lt;/code&gt; function to tell R that I want it to go within the “data” folder I just created in order to find the “medals.csv” file&lt;/li&gt;
+&lt;li&gt;We can take a look at the first 6 rows of our raw data using &lt;code&gt;head()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;p1&gt; 📚 Recommended resource: &lt;a href=&#34;http://jenrichmond.rbind.io/post/how-to-use-the-here-package/&#34;&gt;How to use the &lt;code&gt;here&lt;/code&gt; package by Jenny Richmond&lt;/a&gt; &lt;/p1&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;clean-our-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Clean our data&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;medals_top5 &amp;lt;- medals_raw %&amp;gt;% # create a new variable with our results
+  clean_names() %&amp;gt;% # step 1
+  select(team_noc, total) %&amp;gt;% # step 2
+  arrange(desc(total)) %&amp;gt;% # step 3
+  top_n(5) # step 4&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Step 1: When looking at the data, the first thing I notice is the variable names could be “cleaner”.
+&lt;ul&gt;
+&lt;li&gt;We always want to try to avoid white space, so we’ll want to change our variable “Rank by Total”. Programmers have their own style of coding in order to avoid white space. For example, there’s “snake_case” (Rank_by_Total) or “camel case” (rankByTotal) or “kebab case” (Rank-by-Total).&lt;/li&gt;
+&lt;li&gt;My preference is snake case and I also make sure my variables are all lowercase (mainly because, like most programmers, I’m lazy and it’s much easier to type lower case letters than capital letters)&lt;/li&gt;
+&lt;li&gt;Fortunately, &lt;code&gt;janitor::clean_names()&lt;/code&gt; does all of this for me in just one line of code!&lt;/li&gt;
+&lt;li&gt;So, here I’ll use the &lt;code&gt;clean_names()&lt;/code&gt; function to remove white space and transform everything to lower case&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Step 2: Select only the columns/variables I need in order to answer my research question. This will make your life so much easier, especially if your dataset has dozens or even hundreds of variables&lt;/li&gt;
+&lt;li&gt;Step 3: Arrange the total column in descending order&lt;/li&gt;
+&lt;li&gt;Step 4: Select only the top 5 rows… I’ve actually never heard of &lt;code&gt;top_n()&lt;/code&gt; before, but I just did a quick Google search and found it!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And here we’re simply printing out our results:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;medals_top5&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 5 × 2
+##   team_noc                   total
+##   &amp;lt;chr&amp;gt;                      &amp;lt;dbl&amp;gt;
+## 1 United States of America     113
+## 2 People&amp;#39;s Republic of China    88
+## 3 ROC                           71
+## 4 Great Britain                 65
+## 5 Japan                         58&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;visualise-our-results&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Visualise our results&lt;/h2&gt;
+&lt;p&gt;Finally, let’s create a visualisation using ggplot!
+- Notice that we use the &lt;code&gt;+&lt;/code&gt; sign rather than the &lt;code&gt;%&amp;gt;%&lt;/code&gt; when using ggplot. This may get a little bit confusing at first, but this may be helpful: when using ggplot, think about it as each line is &lt;strong&gt;adding&lt;/strong&gt; a new layer to your plot&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(medals_top5, aes(x = reorder(team_noc, total, sum), y = total, fill=team_noc)) + # I&amp;#39;ve reordered the columns based on the sum of the total variable 
+  geom_col() + 
+  coord_flip() + # flips the cartesian coordinates to make it easier to read the country names
+  labs(x = &amp;quot;Country&amp;quot;, y = &amp;quot;Total Medals&amp;quot;) + # you can also add a &amp;quot;title&amp;quot; here if you&amp;#39;d like
+  theme_bw() + # there are several default themes but I like this one 
+  easy_remove_legend() + # one of my favorite functions from ggeasy to remove the legend
+  easy_text_size(15) # another one of my favorite functions from ggeasy to change the text size&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://fouedhamouda.netlify.app/blog/internal-project-4/index_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ggplot-challenge&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;ggplot challenge&lt;/h1&gt;
+&lt;p&gt;I thought it would be fun to end this blog with a bit of a challenge for you to test out all of your new R skills! I’ve included a few hints below, but remember Google is your best friend.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks so much for reading this blog and feel free to share your plots on Twitter and tag me &lt;span class=&#34;citation&#34;&gt;@jfsloane&lt;/span&gt; - I’d love to see!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p2&gt; Using the medals dataset (which can be found &lt;a href=&#34;https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo&#34;&gt;here&lt;/a&gt;), are you able to reproduce the graph below?? &lt;/p2&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://fouedhamouda.netlify.app/blog/internal-project-4/index_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I’ve used the 5 countries with the most total medals (the same countries as I plotted in the graph above in the section on “Visualise our results”)&lt;/li&gt;
+&lt;li&gt;The medal types (gold, silver, bronze) are in a “wide” data format. In other words, gold, silver, and bronze all have their own columns. However, ggplot likes data in a “long” format, so this is the perfect time to look up and learn about &lt;code&gt;pivot_longer()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The type of graph I’ve plotted is called a “stacked barplot”&lt;/li&gt;
+&lt;li&gt;I’ve manually set the colors using hex codes to get gold = &lt;p1 style=&#34;background-color:#FFD700&#34;&gt;#FFD700&lt;/p1&gt;, silver = &lt;p1 style=&#34;background-color:#C0C0C0&#34;&gt;#C0C0C0&lt;/p1&gt;, and bronze = &lt;p1 style=&#34;background-color:#CD7F32&#34;&gt;#CD7F32&lt;/p1&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- ![](images/art_rollercoaster2.png) --&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -314,7 +761,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-653981274&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-739185246&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -324,7 +771,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-653981274&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-739185246&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -761,6 +1208,28 @@ Three
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://fouedhamouda.netlify.app/blog/external-project/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Lectures</title>
+      <link>https://fouedhamouda.netlify.app/blog/internal-project-3/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://fouedhamouda.netlify.app/blog/internal-project-3/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;In this section, you will find my course lectures at the University of Gabès&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://foha2001.github.io/financeinternationale-website/&#34;&gt;Course #1: International Finance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://foha2001.github.io/MAEE/&#34;&gt;Course #2: Advanced methods to firm’s evaluation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://foha2001.github.io/finance-d-entreprise/&#34;&gt;Course #3: Corporate finance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://foha2001.github.io/IF/&#34;&gt;Course #4: Financial engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All websites are in french language (the official leaning language at the university of Gabès)&lt;/p&gt;
+</description>
     </item>
     
     <item>

@@ -12,34 +12,37 @@
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/publication-type/2/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouedhamouda.netlify.app/author/ahlem-zrig/</loc>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/authors/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fouedhamouda.netlify.app/author/foued-hamouda/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/publication_types/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/publication/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/tag/source-themes/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/tags/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/publication/journal-article-15/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/publication-type/6/</loc>
-    <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouedhamouda.netlify.app/publication/journal-article-6/</loc>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/publication/journal-article-16/</loc>
     <lastmod>2023-01-14T00:00:00+00:00</lastmod>
@@ -85,6 +88,12 @@
   </url><url>
     <loc>https://fouedhamouda.netlify.app/author/yasmeen-a.-alwasel/</loc>
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouedhamouda.netlify.app/blog/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouedhamouda.netlify.app/blog/internal-project-4/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/publication/journal-article/</loc>
     <lastmod>2021-08-19T00:00:00+00:00</lastmod>
@@ -188,9 +197,6 @@
     <loc>https://fouedhamouda.netlify.app/publication/journal-article-11/</loc>
     <lastmod>2017-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouedhamouda.netlify.app/blog/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://fouedhamouda.netlify.app/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -198,6 +204,9 @@
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/blog/external-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouedhamouda.netlify.app/blog/internal-project-3/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/blog/internal-project-2/</loc>
@@ -213,5 +222,7 @@
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouedhamouda.netlify.app/admin/</loc>
+  </url><url>
+    <loc>https://fouedhamouda.netlify.app/author/thanks-to-jenny-sloane-who-wrote-this-blog-please-refer-to-https/jennysloane.netlify.app/blog/intro_to_r/</loc>
   </url>
 </urlset>
