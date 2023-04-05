@@ -3,8 +3,8 @@ bio:
   matter.
 education:
   courses:
-  - course: PhD in Finance
-    institution: Higher Institute of Management of Tunis, Venice International University
+  - course: PhD in 
+    institution: Ecole polytechnique
     year: 
   
 email: ""
