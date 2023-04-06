@@ -3,14 +3,18 @@ bio:
   matter.
 education:
   courses:
-  - course: PhD in Biological 
-    institution: Ecole polytechnique Tunis
-    year: 2023
+  - course: PhD in plant Biology and physiology 
+    institution: Faculty of Sciences Tunis El Manar
+    year: 2012
   
-email: ""
+email: "ahlem18zrig@yahoo.fr"
 highlight_name: false
 interests:
 - Biology
+- Plant tolerence
+- Abiotic stress
+- Tissus Culture
+- Climate change
 
 organizations:
 - name: Higher Institute of Preparatory Studies in Biology and Geology (ISEPBG)
