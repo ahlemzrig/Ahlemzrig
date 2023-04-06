@@ -1,12 +1,29 @@
 ---
-abstract: This paper aims to identify economic shocks in four developed countries that authorize different buyback programs. Previous research has revealed that there are few public debates about buyback activities and economic conditions. According to the free cash flow hypothesis, the total payout policy is in line with the real economy of each country. Using linear and non-linear bivariate causality tests, we find that buybacks and industrial production are endogeniously determined. In Japan, prior buyback programs indicated a change in economic growth. However, in the United States, changes in economic growth will increase repurchase activity before the financial crisis. This finding is interesting because it supports the idea that repurchase programs are a significant factor in determining economic shocks. It has extended and confirmed the knowledge and perception that stock repurchases could be used by financial economists to predict economic shocks. 
+abstract: Edible sprouts are rich in flavonoids and other polyphenols, as well as proteins, minerals, and vitamins. Increasing sprout consumption necessitates improving their quality, palatability, and bioactivity. The purpose of this study was to test how KNO3 priming affects the sprouting process species on three Medicago species (Medicago indicus, Medicago interexta, and Medicago polymorpha) and their nutritional values. Targeted species of Medicago were primed with KNO3, and the levels of different primary and secondary metabolites were determined. KNO3 induced biomass accumulation in the sprouts of the three species, accompanied by an increased content of total mineral nutrients, pigments, vitamins, and essential amino acids. Besides, our results showed that KNO3 enhanced the activity of nitrate reductase (NR), glutamate dehydrogenase (GDH), and glutamine synthetase (GS) enzymes, which are involved in the nitrogen metabolism and GOGAT cycle, which, in turn, increase the nitrogen and protein production. KNO3 treatment improved the bioactive compound activities of Medicago sprouts by increasing total phenolic and flavonoid contents and enhancing the antioxidant and antidiabetic activities. Furthermore, species-specific responses toward KNO3 priming were noticeable, where Medicago interexta showed the highest antioxidant and antidiabetic activities, followed by Medicago polymorpha. Overall, this study sheds the light on the physiological and biochemical bases of growth, metabolism, and tissue quality improvement impact of KNO3 on Medicago sprouts. 
 author_notes:
-- Equal contribution
-- Equal contribution
+- Corresponding author
+- equal contibutor
+- Statistic analysis
+- equal contibutor
+- equal contibutor
+- equal contibutor
+- equal contibutor
+- equal contibutor
+- equal contibutor
+- equal contibutor
 authors:
+- Ahlem Zrig
+- Ahmed Saleh
 - admin
+- Mohammad K. Okla
+- Wahidah H. Al-Qahtani
+- Yasmeen A. Alwasel
+- Abdulrahman Al-Hashimi
+- Momtaz Y. Hegab
+- Abdelrahim H. A. Hassan
+- Hamada AbdElgawad
 #- Robert Ford
-#date: "2021-09-01T00:00:00Z"
+#date: "2022-05-01T00:00:00Z"
 doi: ""
 featured: false
 image:
@@ -14,19 +31,19 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*Cogent Economics and Finance, 9*(1)'
+publication: '*plants, 11*(71)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2021-08-19T00:00:00Z"
+publishDate: "2022-01-27T00:00:00Z"
 #slides: example
-summary: Identifying economic shocks with stock repurchase programs
+summary: Impact of Sprouting under Potassium Nitrate Priming on Nitrogen Assimilation and Bioactivity of Three Medicago Species
 tags:
 - Source Themes
-title: Identifying economic shocks with stock repurchase programs
+title: Impact of Sprouting under Potassium Nitrate Priming on Nitrogen Assimilation and Bioactivity of Three Medicago Species
 #url_code: ""
-url_dataset: https://data.mendeley.com/drafts/9vxm5y3zy8
-url_pdf: https://www.tandfonline.com/doi/pdf/10.1080/23322039.2021.1968112?src=getftr1
+#url_dataset: 
+url_pdf: https://pubmed.ncbi.nlm.nih.gov/35009075/
 # url_poster: ""
 # url_project: ""
 # url_slides: ""

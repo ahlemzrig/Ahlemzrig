@@ -7,7 +7,7 @@ image:
 links:
 - icon: github
   icon_pack: fab
-  name: Project
+  name: Projects
   url: https://github.com/Foha2001/tunisianfirms
 #slides: example
 summary: Package presentation.
@@ -18,9 +18,16 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+toc: true
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 
+<div id="TOC">
+
+</div>
 
 <p>The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms</p>
 <p>Installation
@@ -35,10 +42,10 @@ However, you can install from github with these</p>
 <p>you have to install devtools before, when installing from github
 call the package with :</p>
 <pre class="r"><code>library(tunisianfirms)</code></pre>
-<p>basic example code</p>
+<p>#basic example code</p>
 <pre class="r"><code>cotation(&quot;ATTIJARIBANK&quot;)</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<p>To show a sample_example run</p>
+<p>#To show a sample_example run</p>
 <pre class="r"><code>head(sample_data)</code></pre>
 <pre><code>##         date          lib prix
 ## 1 2019-01-02 GIFDA5/42931 0.01

@@ -13,13 +13,13 @@ interests:
 - Biology
 
 organizations:
-- name: Higher Institute of Management of Gabès
-  url: http://www.isggb.rnu.tn/
+- name: Higher Institute of Preparatory Studies in Biology and Geology (ISEPBG)
+  url: http://www.isepbgsoukra.agrinet.tn/index.php/fr/
 - name: and
   url: 
-- name: Higher Institute of Management of Tunis, GEF2A-Lab, Le Bardo 2000, Tunis, Tunisia
-  url: https://isg.rnu.tn/
-role: Ph.D. in Finance
+- name: ENIG - National Engineering School of Gabes, Tunisia
+  url: www.enig.rnu.tn
+role: Ph.D. in Bilogy
 social:
 - icon: envelope
   icon_pack: fas
@@ -32,10 +32,10 @@ social:
   link: https://twitter.com/HamoudaFoued
 - icon: github
   icon_pack: fab
-  link: https://github.com/Foha2001
+  link: https://github.com/ahlemzrig
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/foued-hamouda-4b717814/
+  link: https://www.linkedin.com/in/ahlem-zrig-4b097755/
 superuser: true
 title: Ahlem Zrig
 ---

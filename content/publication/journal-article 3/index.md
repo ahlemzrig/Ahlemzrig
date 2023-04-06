@@ -1,12 +1,17 @@
 ---
-abstract: This study examines the relationship between insider trading and board of directors’ characteristics around stock repurchase announcements. It is hypothesized that information disparity between insiders and shareholders from share repurchases announcements creates opportunities for insiders to time their trading. However, there is little evidence on whether board characteristics reduce the probability of insider trading with repurchase announcements. Using data from firms listed on Forbes 500 between 1998 and 2004, we found that insider trading is related to share repurchase announcements. In order to focus on board of directors’ role, we controlled for board characteristics that may change the repurchase decision. Our results provide corroborative evidence of insider net selling around repurchase announcements and the advantages of board characteristics to offset insider trading. In particular, the results suggest that board tenure, directors’ ownership and board directorship change positively insider trading around repurchase announcements. Hence, Securities and Exchange Commission should consider rigorous restrictions on share repurchase announcements and be aware of potential influence of the corporate governance device. 
+abstract: Increasing the production of horticultural crops is one of the most important challenges worldwide. Seed priming is a promising agricultural procedure for supporting growth and quality of economic crops. Among the most efficient seed priming agents that play a significant role in improving plant growth, chemical composition and bioactivity is melatonin (MT). This study was carried out to investigate the impact of MT priming on sprouting of three genotypes of quinoa (Chenopodium quinoa) and their nutritive value. Different primary and secondary metabolites of the three genotypes (regalona, kvl-sra2, Q37) were quantified. MT priming promoted the growth of quinoa genotypes by increasing their biomass accumulation and total nutrient content. Regarding the effect of MT priming on pigments, there was an obvious upward trend in leaf pigments of regalona. Besides, our results showed that MT priming increased the vitamins content such as thiamin and tocopherol content. Essential amino acids, organic acids and unsaturated fatty acids were significantly higher in MT-primed plants relative to the corresponding controls. Further, MT priming enhanced the accumulation of total soluble sugar, polyphenols, and flavonoids, which contribute to higher antioxidant and antidiabetic activities. Interestingly, species-specific responses toward MT priming were noticeable, where kvl-sra2 sprouts showed the highest antioxidant and anti diabetic activities among the three-quinoa genotypes. Overall, the current results suggest that MT priming could be used as a powerful agricultural approach to improve the growth and functional food value of quinoa sprouts.. 
 author_notes:
-- Equal contribution
-- Equal contribution
+- equal contibutor
+- equal contibutor
+- equal contibutor
+- Data analysis
 authors:
+- Zrig Ahlem
+- Saleh Ahmed M
+- Sheteiwy Mohamed S
 - admin
 #- Robert Ford
-#date: "2021-09-01T00:00:00Z"
+#date: "2017-07-01T00:00:00Z"
 doi: ""
 featured: false
 image:
@@ -14,19 +19,19 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*Journal of Management & Governance volume, 17*(1)'
+publication: '*Scientia Horticulturae, 301*(27)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2011-07-01T00:00:00Z"
+publishDate: "2022-07-27T00:00:00Z"
 #slides: example
-summary: Board of directors and insider trading with share repurchase programs
+summary: Melatonin priming as a promising approach to improve biomass accumulation and the nutritional values of Chenopodium quinoa sprouts A genotype-based study
 tags:
 - Source Themes
-title: Board of directors and insider trading with share repurchase programs
+title: Melatonin priming as a promising approach to improve biomass accumulation and the nutritional values of Chenopodium quinoa sprouts A genotype-based study
 #url_code: ""
 #url_dataset: 
-url_pdf: https://link.springer.com/article/10.1007/s10997-011-9181-6
+url_pdf: https://www.sciencedirect.com/science/article/abs/pii/S0304423822002138?via%3Dihub
 # url_poster: ""
 # url_project: ""
 # url_slides: ""
