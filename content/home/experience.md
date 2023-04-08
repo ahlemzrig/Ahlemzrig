@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Researcher 
+  - title: Teacher 
     company: Higher Institute of Preparatory Studies in Biology and Geology Tunis 
     company_url: 'http://www.isepbgsoukra.agrinet.tn/index.php/fr/'
     company_logo: logobservatoire
@@ -32,9 +32,20 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Data management
+        * Teaching plant physiology
+        * Biology
+  - title: Manager project 
+    company: Rehabilitation and Preservation of Plant Biodiversity in the Oasis Ecosystem 
+    company_url: 'http://www.isepbgsoukra.agrinet.tn/index.php/fr/'
+    company_logo: logobservatoire
+    location: Gabès
+    date_start: '2017-03-01'
+    date_end: '2019-01-01'
+    description: |2-
+        Responsibilities include:
+        
+        * Coordinator 
+        * 
         
  
 design:
