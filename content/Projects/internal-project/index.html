@@ -8,12 +8,12 @@ links:
 - icon: github
   icon_pack: fab
   name: Projects
-  url: https://github.com/Foha2001/tunisianfirms
+  url: 
 #slides: example
 summary: Package presentation.
 tags:
 - Deep Learning
-title: Tunisianfirms package
+title: Project 2
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -29,28 +29,3 @@ output:
 
 </div>
 
-<p>The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms</p>
-<p>Installation
-Coming soon You can install the released version of tunisianfirms from CRAN soon.
-However, you can install from github with these</p>
-<pre class="r"><code>library(devtools)</code></pre>
-<pre><code>## Warning: le package &#39;devtools&#39; a été compilé avec la version R 4.2.3</code></pre>
-<pre><code>## Le chargement a nécessité le package : usethis</code></pre>
-<pre class="r"><code>devtools::install_github(&quot;Foha2001/tunisianfirms&quot;)</code></pre>
-<pre><code>## Skipping install of &#39;tunisianfirms&#39; from a github remote, the SHA1 (397c5975) has not changed since last install.
-##   Use `force = TRUE` to force installation</code></pre>
-<p>you have to install devtools before, when installing from github
-call the package with :</p>
-<pre class="r"><code>library(tunisianfirms)</code></pre>
-<p>#basic example code</p>
-<pre class="r"><code>cotation(&quot;ATTIJARIBANK&quot;)</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<p>#To show a sample_example run</p>
-<pre class="r"><code>head(sample_data)</code></pre>
-<pre><code>##         date          lib prix
-## 1 2019-01-02 GIFDA5/42931 0.01
-## 2 2019-01-02 SOMCDA3/3725 0.01
-## 3 2019-01-02  TLSDS3/2021 0.01
-## 4 2019-01-03 GIFDA4/23727 0.01
-## 5 2019-01-03 GIFDA5/42931 0.01
-## 6 2019-01-03  SAHDA1/1425 0.01</code></pre>

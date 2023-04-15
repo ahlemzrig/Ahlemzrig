@@ -8,12 +8,12 @@ links:
 - icon: github
   icon_pack: fab
   name: Projects
-  url: https://github.com/Foha2001/tunisianfirms
+  url: 
 #slides: example
 summary: Package presentation.
 tags:
 - Deep Learning
-title: Tunisianfirms package
+title: Project 2
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -23,37 +23,3 @@ output:
   blogdown::html_page:
     toc: true
 ---
-The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms
-
-Installation
-Coming soon You can install the released version of tunisianfirms from CRAN soon.
-However, you can install from github with these 
-
-```{r}
-library(devtools)
-devtools::install_github("Foha2001/tunisianfirms")
-```
-you have to install devtools before, when installing from github
-call the package with :
-```{r}
-library(tunisianfirms)
-```
-#basic example code
-
-```{r}
-cotation("ATTIJARIBANK")
-
-```
-
-
-#To show a sample_example run
-
-
-```{r}
-
-head(sample_data)
-```
-
-
-
-

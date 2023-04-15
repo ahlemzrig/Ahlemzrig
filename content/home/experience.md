@@ -45,7 +45,6 @@ experience:
         Responsibilities include:
         
         * Coordinator 
-        * 
         
  
 design:
